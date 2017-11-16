@@ -34,6 +34,20 @@ aside {
     margin: 0 auto;
 }
 
+.flex-container {
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    background-color: seagreen;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+
+.flex-item {
+    background-color: hotpink;
+    margin: 1em;
+}
+
 .bigimage {
     width: 100%;
 }
